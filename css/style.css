@@ -10,12 +10,11 @@ body {
 }
 
 h1 {
-  font-size: 2.6rem;
+  font-size: 3rem;
   color: #111;
-  margin-top: -38%;
+  top: 12%;
   padding: 0;
   line-height: 24px;
-  left: 20%;
   position: absolute;
 }
 
@@ -92,9 +91,8 @@ h1 span:nth-child(14) {
 h2 {
   color: red;
   animation: animate 0.5s linear infinite;
-  font-size: 3.8rem;
+  font-size: 4.5rem;
   position: absolute;
-  width: 100%;
   margin: auto;
   text-align: center;
 }
@@ -119,9 +117,9 @@ h2:nth-child() {
 }
 
 .image {
-  height: 37%;
-  width: 25%;
+  height: 24%;
+  width: 66%;
   transform: rotate(15deg);
-  margin: 11% 0%;
+  bottom: 18%;
   position: absolute;
 }
