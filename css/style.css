@@ -75,10 +75,10 @@ h1 span:nth-child(14) {
   0%,
   100% {
     color: #fff;
-    filter: blur(3px);
-    text-shadow: 0 0 10px #e80b0b, 0 0 10px #e80b0b, 0 0 20px #e80b0b,
-      0 0 40px #e80b0b, 0 0 80px #e80b0b, 0 0 120px #e80b0b, 0 0 200px #e80b0b,
-      0 0 300px #e80b0b, 0 0 400px #e80b0b;
+
+    text-shadow: 0 0 10px #e80b0b, 0 0 20px #e80b0b, 0 0 40px #e80b0b,
+      0 0 80px #e80b0b, 0 0 120px #e80b0b, 0 0 200px #e80b0b, 0 0 300px #e80b0b,
+      0 0 400px #e80b0b;
   }
   5%,
   95% {
@@ -95,31 +95,17 @@ h2 {
   position: absolute;
   margin: auto;
   text-align: center;
+  top: 32%;
 }
 
 h2:nth-child() {
   animation-delay: 2s;
 }
 
-@keyframes animate {
-  0%,
-  100% {
-    color: #fff;
-    filter: blur(3px);
-    text-shadow: 0 0 10px #e80b0b;
-  }
-  5%,
-  95% {
-    color: #111;
-    filter: blur(0px);
-    text-shadow: 0 0 50px none;
-  }
-}
-
 .image {
-  height: 24%;
+  height: 34%;
   width: 66%;
   transform: rotate(15deg);
-  bottom: 18%;
+  bottom: 7%;
   position: absolute;
 }
